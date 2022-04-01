@@ -1,0 +1,9 @@
+.galleryItem{
+list-style: none;
+margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.galleryImg{
+    height: 100%;
+}
