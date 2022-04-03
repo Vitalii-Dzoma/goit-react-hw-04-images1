@@ -47,7 +47,7 @@ export const App1 = () => {
 
     fetchImageCards(name, count)
       .then(
-        image => setImage([...image, ...image], console.log(count))
+        imageNew => setImage([...image, ...imageNew], console.log(count))
         // this.setState(prevState => ({
         //   image: [...prevState.image, ...image],
         // }))
